@@ -10,7 +10,7 @@ type GoogleGeoCodingResponse = {
 const form = document.querySelector<HTMLFormElement>("form")!;
 const addressInput = document.getElementById("address")! as HTMLInputElement;
 
-const GOOGLE_API_KEY = "AIzaSyAuyPWb0vgdZ3j5PZ6ptox5pFoEUMoYMao";
+const GOOGLE_API_KEY = "xxxxxx";
 
 function searchLocationHandler(event: Event) {
   event.preventDefault(); //this is to prevent it from refreshing
